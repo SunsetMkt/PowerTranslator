@@ -47,3 +47,4 @@ jobs:
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
           file: build\*.msix
+          file_glob: true
